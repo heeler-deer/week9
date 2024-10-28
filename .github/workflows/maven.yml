@@ -1,12 +1,11 @@
 name: Java CI with maven
 on:
  push:
- branches: [ master ]
+  branches: [ master ]
  pull_request:
- branches: [ master ]
+  branches: [ master ]
  workflow_dispatch:
- 
- jobs:
+jobs:
   build:
    runs-on: ubuntu-latest
    steps:
